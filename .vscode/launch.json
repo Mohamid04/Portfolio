@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open Portfolio in Chrome",
+            "file": "${workspaceFolder}/index.html"
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open via Local Server (port 8080)",
+            "url": "http://localhost:8080/index.html",
+            "webRoot": "${workspaceFolder}",
+            "preLaunchTask": "Start Local Server"
+        }
+    ]
+}
